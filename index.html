@@ -10,12 +10,12 @@
       @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap');
       body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f0f0f0;
         margin: 0;
         overflow: hidden;
+        background-color: #0078d4;
       }
       .win-shadow {
-        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        box-shadow: 0 10px 35px rgba(0,0,0,0.3);
       }
       .custom-scrollbar::-webkit-scrollbar {
         width: 12px;
@@ -30,6 +30,20 @@
       }
       .custom-scrollbar::-webkit-scrollbar-thumb:hover {
         background: #999;
+      }
+      .win11-wallpaper {
+        background: radial-gradient(circle at 50% 50%, #5b87e2 0%, #2b57bf 50%, #1e3a8a 100%);
+        background-size: cover;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+      }
+      .taskbar-glass {
+        background: rgba(243, 243, 243, 0.85);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
       }
     </style>
   <script type="importmap">
